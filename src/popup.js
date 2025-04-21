@@ -37,7 +37,7 @@ function displayUrls(urls) {
 
 // Function to add a new URL
 function addNewUrl() {
-  const input = document.getElementById("newUrl");
+  const input = document.getElementById("urlInput");
   const url = input.value.trim();
 
   if (url) {
